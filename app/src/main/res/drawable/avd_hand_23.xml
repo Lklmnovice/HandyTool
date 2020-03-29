@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_handbackground_23">
+
+    <target
+        android:name="group_2"
+        android:animation="@animator/handtranslate"/>
+
+    <target
+        android:name="path_13"
+        android:animation="@animator/handshadow"
+        />
+    <target
+        android:name="path_16"
+        android:animation="@animator/handshadow"
+        />
+    <target
+        android:name="path_19"
+        android:animation="@animator/handshadow"
+        />
+    <target
+        android:name="path_22"
+        android:animation="@animator/handshadow"
+        />
+    <target
+        android:name="path_17"
+        android:animation="@animator/handshadow"
+        />
+</animated-vector>

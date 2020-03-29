@@ -1,0 +1,38 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="147dp"
+    android:height="81dp"
+    android:viewportWidth="147"
+    android:viewportHeight="81"
+    >
+  <group
+    android:translateY="30">
+  <group android:name="ball1" android:pivotY="20">
+      <path
+
+          android:pathData="M13.5,13.5m-13.5,0a13.5,13.5 0,1 1,27 0a13.5,13.5 0,1 1,-27 0"
+          android:fillColor="#fff"
+          android:strokeWidth="1"/>
+  </group>
+  <group android:name="ball2"  android:pivotY="20" >
+    <path
+        android:pathData="M53.5,13.5m-13.5,0a13.5,13.5 0,1 1,27 0a13.5,13.5 0,1 1,-27 0"
+        android:fillColor="#fff"
+        android:strokeWidth="1"/>
+  </group>
+    <group android:name="ball3"  android:pivotY="20">
+      <path
+          android:pathData="M93.5,13.5m-13.5,0a13.5,13.5 0,1 1,27 0a13.5,13.5 0,1 1,-27 0"
+          android:fillColor="#fff"
+          android:strokeWidth="1"/>
+    </group>
+    <group android:name="ball4"  android:pivotY="20">
+      <path
+          android:pathData="M133.5,13.5m-13.5,0a13.5,13.5 0,1 1,27 0a13.5,13.5 0,1 1,-27 0"
+          android:fillColor="#fff"
+          android:strokeWidth="1"/>
+    </group>
+
+
+
+  </group>
+</vector>

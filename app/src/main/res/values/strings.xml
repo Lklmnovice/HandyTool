@@ -1,0 +1,14 @@
+<resources>
+    <!--generale -->
+    <string name="app_name">HandyTool</string>
+    <string name="company">endowja</string>
+    <string name="declaration">*La posizione del lettore nfc è diversa su ogni dispositivo. Consultare i documenti ufficiali prima di applicare l\'Handy Tool</string>
+    <!--app string-->
+    <!--layout-->
+    <string name="layout_hand">Press a button</string>
+    <string name="layout_background">balls</string>
+    <string name="layout_pressbutton">Premi un bottone per continuare</string>
+    <string name="title_activity_extra_acticity">ExtraActicity</string>
+
+
+</resources>

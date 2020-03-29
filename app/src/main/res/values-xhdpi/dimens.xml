@@ -1,0 +1,21 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!--entry page-->
+    <dimen name="disclaimer_textSize">20sp</dimen>
+    <dimen name="disclaimer_width">300dp</dimen>
+
+    <dimen name="press_textSize">30sp</dimen>a
+    <dimen name="press_marginTop">16dp</dimen>
+    <dimen name="press_width">300dp</dimen>
+
+    <dimen name="handytool_width">300dp</dimen>
+    <dimen name="handytool_heigth">120dp</dimen>
+    <dimen name="handytool_marginStart">8dp</dimen>
+    <dimen name="handytool_marginTop">260dp</dimen>
+
+    <dimen name="endowja_width">240dp</dimen>
+    <!--<dimen name="endowja_heigth">66dp</dimen>-->
+
+    <dimen name="hand_end">25dp</dimen>
+</resources>

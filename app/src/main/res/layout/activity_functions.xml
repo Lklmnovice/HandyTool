@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/defaultColor">
+
+    <ImageView
+        android:id="@+id/activity_functions_blue"
+        android:layout_width="196dp"
+        android:layout_height="156dp"
+        android:layout_marginBottom="12dp"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toTopOf="@id/space"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_blue" />
+
+    <Space
+        android:id="@+id/space"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="160dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <GridView
+        android:id="@+id/activity_functions_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="100dp"
+        android:gravity="center"
+        android:horizontalSpacing="12dp"
+        android:minHeight="360dp"
+        android:numColumns="3"
+        android:scrollbars="horizontal"
+
+        android:verticalSpacing="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </GridView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="185dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:gravity="right"
+        android:text="Seleziona"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="212dp"
+        android:layout_height="57dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/lato_regular"
+        android:gravity="right"
+        android:text="la tua funzione"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/handytool"
+        android:layout_width="165dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="@+id/activity_functions_blue"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/handytool" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="160dp"
+        android:layout_height="110dp"
+        android:layout_marginBottom="-1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_yellow" />
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="146dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_endowja" />
+
+    <ImageView
+        android:id="@+id/share"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/extra"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:srcCompat="@drawable/ic_share_black_24dp"
+        />
+
+    <ImageView
+        android:id="@+id/extra"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_more_vert_black_24dp"
+        />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/activity_hide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80000000"
+        android:visibility="gone">
+
+    </android.support.constraint.ConstraintLayout>
+
+    <RelativeLayout
+        android:id="@+id/activity_information"
+        android:layout_width="310dp"
+        android:layout_height="296dp"
+        android:background="@drawable/ic_loading_background"
+        android:paddingTop="32dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <!--<ImageView-->
+        <!--android:id="@+id/imageView33"-->
+        <!--android:layout_width="324dp"-->
+        <!--android:layout_height="327dp"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_marginStart="19dp"-->
+        <!--android:layout_marginTop="28dp"-->
+        <!--android:layout_marginEnd="8dp"-->
+
+        <!--android:scaleType="fitStart"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:srcCompat="@drawable/ic_loading_background" />-->
+
+        <EditText
+            android:id="@+id/activity_information_numero"
+            android:layout_width="176dp"
+            android:layout_height="41dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/ic_loadingtext"
+            android:ems="10"
+            android:hint=" numero di telefono"
+            android:inputType="phone"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorHint" />
+
+        <Button
+            android:id="@+id/activity_information_continua"
+            android:layout_width="137dp"
+            android:layout_height="44dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="91dp"
+            android:layout_marginEnd="95dp"
+            android:layout_marginBottom="34dp"
+            android:background="@drawable/ic_loadingbutton"
+            android:text="Continua"
+            android:textColor="@color/defaultColor" />
+
+        <EditText
+            android:id="@+id/activity_information_messaggio"
+            android:layout_width="253dp"
+            android:layout_height="34dp"
+            android:layout_below="@+id/activity_information_numero"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="46dp"
+            android:layout_marginEnd="34dp"
+            android:background="@drawable/ic_loadingtext"
+            android:ems="10"
+            android:hint=" messaggio"
+            android:inputType="textPersonName"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorHint" />
+
+        <Button
+            android:id="@+id/activity_information_helper"
+            android:layout_width="94dp"
+            android:layout_height="41dp"
+            android:layout_alignTop="@+id/activity_information_numero"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="34dp"
+            android:layout_toEndOf="@+id/activity_information_numero"
+            android:background="@drawable/ic_loadingbutton"
+            android:text="helper"
+            android:textColor="@color/defaultColor" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/activity_write"
+        android:layout_width="359dp"
+        android:layout_height="395dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="324dp"
+            android:layout_height="327dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="8dp"
+
+            android:scaleType="fitStart"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_loading_background" />
+
+        <ImageView
+            android:id="@+id/loadingballs"
+            android:layout_width="91dp"
+            android:layout_height="34dp"
+            android:layout_alignTop="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="19dp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView7"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="@+id/imageView7"
+            app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="236dp"
+            android:layout_height="163dp"
+            android:layout_alignStart="@+id/imageView"
+            android:layout_alignTop="@+id/imageView"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="56dp"
+            android:adjustViewBounds="false"
+            android:cropToPadding="false"
+            android:scaleType="fitStart"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="@+id/imageView"
+            app:srcCompat="@drawable/ic_loading_hand" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="246dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/imageView7"
+            android:layout_alignStart="@+id/imageView7"
+
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="72dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="Clicca per impostare l'Handy Tool"
+            android:textColor="@color/defaultColor"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="@+id/imageView" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
