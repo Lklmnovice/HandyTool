@@ -33,7 +33,7 @@ A Simple android Application that helps users to customize their NFC tags for ce
 ## Project preview
 splash screen          | home page          | enter new functionality
 :-------------------------:|:-------------------------:|:-------------------------:|
-<img src="_app_screen_1_white.png" width="20%"></img> |<img src="_app_screen_2_white.png" width="20%"></img> | <img src="_app_screen_3_white.png" width="20%"></img>
+<img src="_app_screen_1_white.png" width="40%"></img> |<img src="_app_screen_2_white.png" width="40%"></img> | <img src="_app_screen_3_white.png" width="40%"></img>
 
 ## Reflection
 
